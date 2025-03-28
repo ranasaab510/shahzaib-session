@@ -1,0 +1,23 @@
+
+{
+    "name": "shahzaib-session",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/1ptdm6.jpg",
+    "repository": "https://github.com/shahzaib510/shahzaib-session",
+    "keywords": ["Shahzaib-Tech"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "Just Leave This Blank",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
